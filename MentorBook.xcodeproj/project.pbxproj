@@ -15,6 +15,10 @@
 		34CDE0FF2469A7800089AC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CDE0FD2469A7800089AC15 /* LaunchScreen.storyboard */; };
 		34CDE10A2469A7800089AC15 /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CDE1092469A7800089AC15 /* MentorBookTests.swift */; };
 		34CDE1152469A7800089AC15 /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CDE1142469A7800089AC15 /* MentorBookUITests.swift */; };
+		34CDE1262469A8550089AC15 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34CDE1232469A8540089AC15 /* ryo.jpg */; };
+		34CDE1272469A8550089AC15 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34CDE1242469A8540089AC15 /* nagata.jpg */; };
+		34CDE1282469A8550089AC15 /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 34CDE1252469A8540089AC15 /* taithi.JPG */; };
+		34CDE12C2469AC2C0089AC15 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CDE12B2469AC2C0089AC15 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		34CDE1102469A7800089AC15 /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CDE1142469A7800089AC15 /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		34CDE1162469A7800089AC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CDE1232469A8540089AC15 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		34CDE1242469A8540089AC15 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		34CDE1252469A8540089AC15 /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
+		34CDE12B2469AC2C0089AC15 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		34CDE0E62469A77B0089AC15 = {
 			isa = PBXGroup;
 			children = (
+				34CDE12B2469AC2C0089AC15 /* Mentor.swift */,
 				34CDE0F12469A77C0089AC15 /* MentorBook */,
 				34CDE1082469A7800089AC15 /* MentorBookTests */,
 				34CDE1132469A7800089AC15 /* MentorBookUITests */,
@@ -99,6 +108,7 @@
 		34CDE0F12469A77C0089AC15 /* MentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				34CDE1222469A8540089AC15 /* images */,
 				34CDE0F22469A77C0089AC15 /* AppDelegate.swift */,
 				34CDE0F42469A77C0089AC15 /* SceneDelegate.swift */,
 				34CDE0F62469A77C0089AC15 /* ViewController.swift */,
@@ -126,6 +136,16 @@
 				34CDE1162469A7800089AC15 /* Info.plist */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		34CDE1222469A8540089AC15 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				34CDE1232469A8540089AC15 /* ryo.jpg */,
+				34CDE1242469A8540089AC15 /* nagata.jpg */,
+				34CDE1252469A8540089AC15 /* taithi.JPG */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34CDE1262469A8550089AC15 /* ryo.jpg in Resources */,
+				34CDE1272469A8550089AC15 /* nagata.jpg in Resources */,
+				34CDE1282469A8550089AC15 /* taithi.JPG in Resources */,
 				34CDE0FF2469A7800089AC15 /* LaunchScreen.storyboard in Resources */,
 				34CDE0FC2469A7800089AC15 /* Assets.xcassets in Resources */,
 				34CDE0FA2469A77C0089AC15 /* Main.storyboard in Resources */,
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34CDE12C2469AC2C0089AC15 /* Mentor.swift in Sources */,
 				34CDE0F72469A77C0089AC15 /* ViewController.swift in Sources */,
 				34CDE0F32469A77C0089AC15 /* AppDelegate.swift in Sources */,
 				34CDE0F52469A77C0089AC15 /* SceneDelegate.swift in Sources */,
